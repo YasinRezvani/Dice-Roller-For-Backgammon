@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" dir="rtl">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,18 +10,30 @@
     <link rel="stylesheet" href="./font/font.css">
 </head>
 
-<body> 
+<body>
+    <nav>
+        <div class="nav-center">
+            <img src="./img/backgammon.png" alt="">تاس انداز تخته نرد
+        </div>
+    </nav>
+    <div class="dice">
+        <div class="dice-center">
+            <div id="dice-res">
+                <span id="aa">6</span>
+            </div>
+            <div id="div2"><span id="bb">6</span>
+            </div>
+        </div>
+    </div>
 
-    <div id="div1">
-        <span id="aa">6</span>
-     </div>
-    <div id="div2"><span id="bb">6</span></div>
+    <footer>
+        <div class="footer">
+            Made With <i class="fas fa-heart "></i> & <i class="fas fa-coffee"></i> By Yasin Rezvani
+        </div>
+    </footer>
     <button class="btn" onclick="randomjs()">confirm</button>
-    <script>
-
-    </script>
     <script src="./js/app.js"></script>
     <script src="./js/all.min.js"></script>
 </body>
-</html>
 
+</html>

@@ -1,0 +1,60 @@
+body{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: sahel;
+    background-image: url(../img/pexels-fotografierende-1111597.jpg);
+    background-repeat: no-repeat;
+    overflow: hidden;
+    background-size: cover;
+
+   
+}
+
+nav{
+    height: 65px;
+    background-color: rgba(0, 0, 0, 0.65);   
+}
+
+.nav-center{
+    text-align: center;
+    font-size: 24px;
+    position: absolute;
+    right: 86px;
+    color: white;
+    top: 8px;
+}
+
+.nav-center img{
+    width: 53px;
+    height: 45px;
+    position: absolute;
+    left: 183px;
+    top: 0;
+}
+
+footer{
+    background-color: rgba(0, 0, 0, 0.65);
+    position: absolute;
+    bottom: 0px;
+    height: 40px;
+    width: 100%;
+}
+
+.footer{
+    text-align: center;
+    position: absolute;
+    right: 32.5rem;
+    bottom: 3px;
+    color: white;
+}
+
+.fa-heart{
+    margin: 0px 3px;
+    color: red;
+}
+
+.fa-coffee {
+    margin: 0px 3px;
+    color: #976846;
+}
