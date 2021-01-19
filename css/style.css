@@ -1,15 +1,13 @@
 body {
+    background-image: url(../img/guillermo-velarde-e-4iBXpQo7U-unsplash.jpg);
+    background-repeat: no-repeat; 
+    background-size: 100rem;
+    overflow-x: hidden;
     margin: 0;
     padding: 0;
-    text-decoration: none;
     font-family: sahel;
-    background-image: url(../img/pexels-fotografierende-1111597.jpg);
-    background-repeat: no-repeat;
-    overflow: hidden;
-    background-size: cover;
-
-
 }
+
 
 nav {
     height: 65px;
@@ -22,7 +20,7 @@ nav {
     position: absolute;
     right: 86px;
     color: white;
-    top: 8px;
+    top: 8px;z-index: 0;
 }
 
 .nav-center img {
@@ -31,6 +29,7 @@ nav {
     position: absolute;
     left: 183px;
     top: 0;
+    z-index: 1;
 }
 
 footer {
@@ -43,9 +42,7 @@ footer {
 
 .footer {
     text-align: center;
-    position: absolute;
-    right: 32.5rem;
-    bottom: 3px;
+    margin: 7px;
     color: white;
     user-select: none;
 }
@@ -92,7 +89,7 @@ footer {
     width: 30rem;
     height: 15rem;
     padding: 20px 30px;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.7);
 }
 
 .dice-btn .btn{
@@ -118,7 +115,7 @@ footer {
     padding: 10px 20px 20px 20px;
 }
 
-.animation{
+.die{
     animation-name: shake;
     animation-duration: 1s;
     transition:all 1s ease;
@@ -126,7 +123,7 @@ footer {
 
 @keyframes shake{
     from{
-        transform: rotate(360deg) scale(0.6);
+        transform: rotate(360deg) scale(0.65);
     }
 
     to{
