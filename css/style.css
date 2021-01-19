@@ -77,8 +77,8 @@ footer {
 .dice-res p {
     color: white;
     font-size: 20px;
-    padding: 5px;
-    margin-bottom: 5px;
+    padding: 3px;
+    margin: 0px 0px 10px 0px;
 
 }
 
@@ -101,6 +101,7 @@ footer {
     border-radius: 5px;
     border: none;
     transition: all 0.5s ease;
+    margin-top: 5px;
 }
 
 .dice-btn .btn:hover{
@@ -111,4 +112,20 @@ footer {
     font-size: 5rem;
     color: white;
     padding: 10px 20px 20px 20px;
+}
+
+.rot{
+    animation-name: shake;
+    animation-duration: 1s;
+    transition:all 1s ease;
+}
+
+@keyframes shake{
+    from{
+        transform: rotate(360deg) scale(0.6);
+    }
+
+    to{
+        transform: rotate(0deg) scale(1);
+    }
 }
