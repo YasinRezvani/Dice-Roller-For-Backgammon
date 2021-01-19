@@ -81,6 +81,10 @@ footer {
     margin: 0px 0px 10px 0px;
 
 }
+.green{
+    color: green;
+    font-size: 55px;
+}
 
 .dice-center {
     text-align: center;
@@ -114,7 +118,7 @@ footer {
     padding: 10px 20px 20px 20px;
 }
 
-.rot{
+.animation{
     animation-name: shake;
     animation-duration: 1s;
     transition:all 1s ease;
